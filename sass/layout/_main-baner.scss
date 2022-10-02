@@ -9,12 +9,14 @@
       background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-      url(../../images/Header-mobile.svg);
+      url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-mobile.jpg");
   }
 
   .main-baner-title {
       margin-bottom: 30px;
       font-family: var(--roboto-font-constant);
+
+
       font-weight: 900;
       font-size: 26px;
       line-height: 1.61;
@@ -33,7 +35,7 @@
         background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(../../images/Header-mobile.svg);
+        url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-mobile.jpg");
     }
 
     .main-baner-title {
@@ -58,7 +60,7 @@
         background-image: linear-gradient(to right,
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../../images/Header-tablet.svg);
+            url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-tablet.jpg");
     }
 
     .main-baner-title {
@@ -90,7 +92,7 @@
         background-image: linear-gradient(to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                url(../../images/baner.jpg);
+                url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner.jpg");
         }
 
         .main-baner-title {

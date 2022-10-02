@@ -532,7 +532,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Header-mobile.svg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-mobile.jpg");
 }
 
 .main-baner-title {
@@ -552,7 +552,7 @@ button {
     padding-bottom: 118px;
     max-width: 480px;
     height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Header-mobile.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-mobile.jpg");
   }
   .main-baner-title {
     margin-bottom: 30px;
@@ -571,7 +571,7 @@ button {
     padding-bottom: 118px;
     max-width: 768px;
     height: 400px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Header-tablet.svg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-tablet.jpg");
   }
   .main-baner-title {
     margin-bottom: 30px;
@@ -597,7 +597,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid black;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/baner.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner.jpg");
   }
   .main-baner-title {
     margin-bottom: 30px;
