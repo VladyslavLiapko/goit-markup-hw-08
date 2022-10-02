@@ -1,0 +1,62 @@
+
+
+@media screen and (min-width: 480px) {
+    .directions {
+            display: none;
+        }
+}
+
+@media screen and (min-width: 768px) {
+    .directions {
+            display: none;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .directions {
+            padding-top: 0;
+        }
+    
+        .what-we-do {
+            margin-bottom: 50px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--menu-link-color);
+        }
+    
+    
+        .directions__list {
+            display: flex;
+            gap: 30px;
+        }
+    
+        .directions__overlay-wrapper {
+            position: relative;
+        }
+    
+        .directions__overlay {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 70px;
+            margin: 0;
+            bottom: 0;
+            left: 0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            background-color: rgba(47, 48, 58, 0.8);
+            color: #FFFFFF;
+            overflow: auto;
+        }
+}

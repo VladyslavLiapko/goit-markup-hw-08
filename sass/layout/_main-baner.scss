@@ -1,0 +1,106 @@
+  .main-baner {
+      color: var(--main-bg-color);
+      background: #2F303A;
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: auto;
+      margin-right: auto;
+      outline: 1px solid black;
+      background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+      url(../../images/Header-mobile.svg);
+  }
+
+  .main-baner-title {
+      margin-bottom: 30px;
+      font-family: var(--roboto-font-constant);
+      font-weight: 900;
+      font-size: 26px;
+      line-height: 1.61;
+      letter-spacing: 0.06em;
+      text-align: center;
+      color: var(--main-bg-color);
+  }
+
+
+@media screen and (min-width: 480px) {
+    .main-baner {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        max-width: 480px;
+        height: 400px;
+        background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../../images/Header-mobile.svg);
+    }
+
+    .main-baner-title {
+        margin-bottom: 30px;
+        font-family: var(--roboto-font-constant);
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: var(--main-bg-color);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .main-baner {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        max-width: 768px;
+        height: 400px;
+        background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../../images/Header-tablet.svg);
+    }
+
+    .main-baner-title {
+        margin-bottom: 30px;
+        font-family: var(--roboto-font-constant);
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.61;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: var(--main-bg-color);
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .main-baner {
+        color: var(--main-bg-color);
+        background: #2F303A;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+        text-transform: uppercase;
+        max-width: 1600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: 1px solid black;
+        background-image: linear-gradient(to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),
+                url(../../images/baner.jpg);
+        }
+
+        .main-baner-title {
+            margin-bottom: 30px;
+            font-family: var(--roboto-font-constant);
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.36;
+            letter-spacing: 0.06em;
+            text-align: center;
+            color: var(--main-bg-color);
+        }
+    }

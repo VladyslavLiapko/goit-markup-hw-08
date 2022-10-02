@@ -1,0 +1,10 @@
+.current::after {
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--button-background-color);
+    border-radius: 2px;
+}

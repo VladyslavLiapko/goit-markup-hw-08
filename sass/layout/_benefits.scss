@@ -1,0 +1,135 @@
+
+@media screen and (min-width: 480px) {
+    .benefits {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .benefits__list {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits__item {
+        flex-basis: 100%;
+
+    }
+
+    .box-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+
+    .benefits__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--menu-link-color);
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .benefits__text {
+        flex: auto;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--main-grey-color);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .benefits {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .benefits__list {
+        display:flex;
+        flex-wrap: wrap;
+
+    }
+
+    .benefits__item {
+        flex: auto;
+        flex-basis: 50%;
+
+    }
+
+    .box-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin-bottom: 30px;
+
+        width: 354px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+
+    .benefits__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--menu-link-color);
+        margin-bottom: 10px;
+    }
+
+    .benefits__text {
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--main-grey-color);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .benefits {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    .benefits__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    .benefits__item {
+        flex-basis: calc((100% - 90px)/4);
+
+    }
+
+    .box-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+    }
+
+    .benefits__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--menu-link-color);
+        margin-bottom: 10px;
+    }
+
+    .benefits__text {
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--main-grey-color);
+    }
+}

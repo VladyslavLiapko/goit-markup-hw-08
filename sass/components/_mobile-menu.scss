@@ -1,0 +1,114 @@
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
+}
+
+ .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+ }
+
+.mobile-menu__container {
+    position: relative;
+    padding-left: 40px;
+}
+
+.mobile-menu__close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: transparent;
+    border: 0;
+    padding: 0; 
+    line-height: 0;
+}
+
+.mobile-menu__close-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mobile-nav {
+    margin-top: 48px;
+    padding-left: 0px;
+}
+
+.mobile-nav__link {
+    position: relative;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    background-color: var(--secondary-color-background);
+    transition: color var(--transition-dur-and-func);
+}
+
+.mobile-nav__link:hover,
+.mobile-nav__link.current {
+    color: var(--accent-color);
+}
+
+.mobile-nav__item:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.contacts-mobile {
+    padding-left: 0px;
+    margin-top: 302px;
+}
+
+.contacts-mobile__item {
+    margin-bottom: 64px;
+}
+
+.contacts-mobile__link:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.contacts-mobile__telefon {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.contacts-mobile__mailto {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.mobile-networks {
+    display: flex;
+    padding-left: 0px;
+}
+
+.mobile-networks__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.mobile-networks__item .border {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    transform: rotate(90deg);
+    margin-right: 10px;
+    margin-left: 10px;
+}
