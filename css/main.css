@@ -156,6 +156,16 @@ button {
   transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
 }
 
+.mobile-menu__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  line-height: 0;
+}
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -165,16 +175,6 @@ button {
 .mobile-menu__container {
   position: relative;
   padding-left: 40px;
-}
-
-.mobile-menu__close-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-  line-height: 0;
 }
 
 .mobile-menu__close-icon {
@@ -257,6 +257,11 @@ button {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-menu.is-open {
+    display: none;
+  }
+}
 @media screen and (min-width: 480px) {
   .footer-address__logo {
     font-family: "Raleway";
@@ -691,6 +696,7 @@ button {
   }
   .benefits__list {
     display: flex;
+    align-items: flex-start;
     gap: 30px;
   }
   .benefits__item {
@@ -732,6 +738,7 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .directions {
+    display: inline;
     padding-top: 0;
   }
   .what-we-do {
@@ -1173,7 +1180,7 @@ footer {
   align-self: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 768px) {
   .footer-general {
     display: flex;
     flex-direction: column;

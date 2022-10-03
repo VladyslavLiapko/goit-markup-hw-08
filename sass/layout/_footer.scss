@@ -148,7 +148,7 @@ footer {
     align-self: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 768px) {
 
     .footer-general {
         display: flex;
