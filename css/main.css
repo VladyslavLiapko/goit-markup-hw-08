@@ -1293,7 +1293,15 @@ footer {
     flex-direction: row;
   }
   .footer-form-btn {
-    margin-left: 12px;
+    margin: 0px 12px 0px;
+  }
+  .footer-box {
+    margin-left: 70px;
+  }
+  .footer-form {
+    margin-left: 93px;
+    width: 570px;
+    align-items: baseline;
   }
 }
 @media screen and (min-width: 480px) {
