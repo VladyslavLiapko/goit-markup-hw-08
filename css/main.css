@@ -1566,6 +1566,7 @@ footer {
   .contacts {
     display: block;
     margin-left: auto;
+    float: right;
   }
   .menu__link {
     font-family: var(--roboto-font-constant);
@@ -1600,7 +1601,6 @@ footer {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
-    margin-right: 50px;
     color: var(--main-grey-color);
     fill: currentColor;
   }
