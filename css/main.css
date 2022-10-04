@@ -66,14 +66,29 @@ a {
   color: inherit;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 420px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -173,6 +188,8 @@ button {
 }
 
 .mobile-menu__container {
+  padding-top: 48px;
+  padding-bottom: 48px;
   position: relative;
   padding-left: 40px;
 }
@@ -184,7 +201,6 @@ button {
 }
 
 .mobile-nav {
-  margin-top: 48px;
   padding-left: 0px;
 }
 
@@ -537,7 +553,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("https://vladyslavliapko.github.io/goit-markup-hw-07/images/baner-mobile.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/baner-mobile.jpg);
 }
 
 .main-baner-title {
@@ -1118,7 +1134,6 @@ footer {
   align-items: center;
   margin-left: auto;
   column-gap: 12px;
-  margin-top: 20px;
 }
 
 .footer-form-field-desk {
@@ -1164,7 +1179,6 @@ footer {
   column-gap: 10px;
   letter-spacing: 0.06em;
   color: #FFFFFF;
-  margin-left: 12px;
   width: 200px;
   height: 50px;
   background-color: var(--button-background-color);
@@ -1191,13 +1205,12 @@ footer {
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 60px;
   }
   .footer-box {
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
   }
   .footer-form {
     align-self: center;
@@ -1213,7 +1226,10 @@ footer {
     display: block;
   }
   .footer-form-btn {
+    display: flex;
+    align-self: center;
     justify-self: center;
+    margin: auto;
   }
   .footer-form-field-input {
     padding-bottom: 60px;
@@ -1223,86 +1239,61 @@ footer {
   .footer-general {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+  }
+  .footer-adress-social {
+    display: flex;
+    margin-bottom: 60px;
   }
   .footer-box {
-    display: inline;
+    margin-top: 5px;
     margin-left: 165px;
-    width: 40%;
   }
   .footer-address {
     display: inline;
     width: 40%;
   }
   .footer-form {
-    width: 50%;
-    justify-content: center;
-  }
-  .footer-form-field-input {
-    padding-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  footer {
-    padding-top: 60px;
-  }
-  .footer-address {
-    padding-top: 60px;
-    text-align: left;
-    width: 20%;
-  }
-  .footer-social-list {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .footer-list-link {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
+    flex-direction: column;
   }
-  .footer-box {
-    align-self: center;
-    margin-top: 70px;
-    margin-left: 0px;
-    width: 20%;
+  .footer-form-btn {
+    margin: auto;
   }
-  .footer-general {
-    padding-top: 0px;
+  .footer-form-field-input {
     display: flex;
-    column-gap: 70px;
-    place-items: start;
+    flex-direction: column;
   }
   .footer-form-field {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    margin-top: 40px;
-  }
-  .footer-form {
-    display: inline;
-    text-align: left;
-    padding-top: 100px;
-    width: 530px;
   }
   .footer-form-input {
     display: inline-block;
+    margin-bottom: 20px;
   }
   .footer-form-field-input {
     display: flex;
-    margin-top: 20px;
+    padding-bottom: 60px;
   }
   .footer-form-btn {
     display: flex;
     padding: 10px 28px;
     column-gap: 10px;
-    margin-left: 12px;
     width: 200px;
     height: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-form-field-input {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-form-btn {
+    margin-left: 12px;
   }
 }
 @media screen and (min-width: 480px) {
